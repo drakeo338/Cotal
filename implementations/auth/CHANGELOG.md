@@ -1,5 +1,22 @@
 # @cotal-ai/auth
 
+## 0.58.0
+
+### Minor Changes
+
+- 95ae645: The auth retirement rail is a conforming registered endpoint with a describable contract. The requester calls it through the generic client in the exact target mode. A legacy body is refused as unsupported-version.
+
+### Patch Changes
+
+- Updated dependencies [95ae645]
+- Updated dependencies [fba1537]
+- Updated dependencies [576f622]
+- Updated dependencies [2457692]
+- Updated dependencies [e9ef5b3]
+- Updated dependencies [2c31f95]
+  - @cotal-ai/core@0.58.0
+  - @cotal-ai/workspace@0.58.0
+
 ## 0.57.0
 
 ### Patch Changes

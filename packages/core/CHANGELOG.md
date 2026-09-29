@@ -1,5 +1,16 @@
 # @cotal-ai/core
 
+## 0.58.0
+
+### Minor Changes
+
+- 95ae645: The auth retirement rail is a conforming registered endpoint with a describable contract. The requester calls it through the generic client in the exact target mode. A legacy body is refused as unsupported-version.
+
+### Patch Changes
+
+- 2457692: The broker floor SPEC §13.12 states is now enforced on every endpoint connection, the provisioning connections and `cotal up`, and `cotal up` names a broker below 2.14.5 as one whose presence bucket can latch.
+- 2c31f95: Clean up each finite KV scan's owned consumer on completion, interruption or cancellation, while retaining the broker's inactivity expiry as a crash backstop. Preserve cancellation through empty-scan bind and cleanup, including calls with an omitted filter, instead of returning an empty result. Membership-feed reconciliation now reads live entries in one scan.
+
 ## 0.57.0
 
 ### Patch Changes

@@ -1,5 +1,19 @@
 # @cotal-ai/delivery
 
+## 0.58.0
+
+### Patch Changes
+
+- 576f622: A process's pidfile and its identity pin now publish as one rename-based transition, so a crash between the two writes never leaves a torn pair (old pid beside a new pin, or a new pid beside an old one). A crash still leaves one of the legacy shapes teardown already handles.
+- Updated dependencies [95ae645]
+- Updated dependencies [fba1537]
+- Updated dependencies [576f622]
+- Updated dependencies [2457692]
+- Updated dependencies [e9ef5b3]
+- Updated dependencies [2c31f95]
+  - @cotal-ai/core@0.58.0
+  - @cotal-ai/workspace@0.58.0
+
 ## 0.57.0
 
 ### Patch Changes

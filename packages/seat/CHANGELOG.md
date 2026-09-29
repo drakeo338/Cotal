@@ -1,5 +1,11 @@
 # @cotal-ai/seat
 
+## 0.58.0
+
+### Patch Changes
+
+- 5831ef8: Pty seats are marked more killable than the broker (`oom_score_adj` 500 on the seat's PTY child), with a logged reason when the kernel refuses and an explicit unavailable line off Linux.
+
 ## 0.57.0
 
 ## 0.56.1
